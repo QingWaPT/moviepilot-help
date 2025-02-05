@@ -1,0 +1,33 @@
+
+#
+# 动画电影
+#
+
+# 我们仍未知道那天所看见的花的名字 (2013) (tmdbid-255413)
+# [BDRemux] AnoHana [JP][7³ACG@OurBits]/AnoHana the Movie-[1080p][JP.BD.Remux][lolice-mix]
+AnoHana the Movie => {[tmdbid=255413;type=movie]}
+#
+# 进击的巨人 ~觉醒的咆哮~ (2018) (tmdbid-492999)
+# [BDRemux] Shingeki no Kyojin Season 2 Kakusei no Houkou [JP][7³ACG@OurBits]/Shingeki no Kyojin Season 2 Kakusei no Houkou-[1080p][JP.BD.Remux][788-mix].mkv
+Shingeki no Kyojin Season 2 Kakusei no Houkou- => {[tmdbid=492999;type=movie]}.[7³ACG@OurBits]
+#
+# 鬼灭之刃 无限列车篇 (2020) (tmdbid-635302)
+# [BDRemux] Kimetsu no Yaiba Mugen Ressha Hen [JP][7³ACG@OurBits]/Kimetsu no Yaiba Mugen Ressha Hen-[1080p][BDRemux][cht+chs+jpn+en][788-Remux].mkv
+Kimetsu no Yaiba Mugen Ressha Hen- => {[tmdbid=635302;type=movie]}.[7³ACG@OurBits]
+
+#
+# 华语电影
+#
+
+#
+# 出走的决心 (2024) (tmdbid-1324509)
+# Like.A.Rolling.Stone.2024.2160p.WEB-DL.H265.DV.DTS5.1-CHDWEB
+Like.A.Rolling.Stone.2024 => {[tmdbid=1324509;type=movie]}
+
+#
+# 日韩电影
+#
+
+#
+# 英美电影
+#

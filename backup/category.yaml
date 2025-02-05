@@ -1,0 +1,207 @@
+####### 配置说明 #######
+# https://wiki.movie-pilot.org/zh/advanced
+# https://github.com/jxxghp/MoviePilot-Wiki/blob/main/advanced.md
+# 1. 该配置文件用于配置电影和电视剧的分类策略，配置后程序会按照配置的分类策略名称**从上到下依次匹配**确定分类，配置文件采用`yaml`格式，需要严格附合语法规则。
+# 2. 配置文件中的一级分类名称：`movie`、`tv` 为固定名称不可修改，**二级名称同时也是目录名称**，会按先后顺序匹配到后程序会**按这个名称建立二级目录**。
+# 3. 同一个分类名称下的多个判定条件为`与`的关系，一个判定条件内的多个值是`或`的关系，通过`,`连接。支持的判定条件有：
+#    - `original_language` 语种，具体含义参考下方字典。
+#    - `production_countries` 国家或地区（电影）、`origin_country` 国家或地区（电视剧），具体含义参考下方字典。
+#    - `genre_ids` 内容类型，具体含义参考下方字典。
+#    - themoviedb 详情API返回的其它一级字段，API参考：[电影](https://developer.themoviedb.org/reference/movie-details)、[电视剧](https://developer.themoviedb.org/reference/tv-series-details)。
+
+
+# 配置电影的分类策略
+movie:
+  动画电影:
+    genre_ids: '16'
+  华语电影:
+    original_language: 'zh,cn,bo,za'
+  日韩电影:
+    original_language: 'ja,ko'
+  英美电影:
+
+# 配置电视剧的分类策略
+tv:
+  日漫:
+    genre_ids: '16'
+    origin_country: 'JP'
+  国漫:
+    genre_ids: '16'
+    origin_country: 'CN,TW,HK'
+  美漫:
+    genre_ids: '16'
+  儿童剧:
+    genre_ids: '10762'
+  纪录片:
+    genre_ids: '99'
+  综艺:
+    genre_ids: '10764,10767'
+  华语剧:
+    origin_country: 'CN,TW,HK'
+  英美剧:
+    origin_country: 'US,FR,GB,DE,ES,IT,NL,PT,RU,UK'
+  日韩剧:
+    # origin_country: 'JP,KP,KR,TH,IN,SG'
+
+## status 播放状态
+# Returning Series      回归剧
+# Ended                 已完结
+# Canceled              已取消
+
+## genre_ids 内容类型 字典，注意部分中英文是不一样的
+# 12          Adventure                 冒险
+# 14          Fantasy                   奇幻
+# 16          Animation                 动画
+# 18          Drama                     剧情
+# 27          Horror                    恐怖
+# 28          Action                    动作
+# 35          Comedy                    喜剧
+# 36          History                   历史
+# 37          Western                   西部
+# 53          Thriller                  惊悚
+# 80          Crime                     犯罪
+# 99          Documentary               纪录
+# 878         Science Fiction           科幻
+# 9648        Mystery                   悬疑
+# 10402       Music                     音乐
+# 10749       Romance                   爱情
+# 10751       Family                    家庭
+# 10752       War                       战争
+# 10759       Action & Adventure
+# 10762       Kids                      儿童
+# 10764       Reality                   真人秀
+# 10765       Sci-Fi & Fantasy
+# 10767
+# 10770       TV Movie                  电视电影
+
+
+## original_language 语种 字典
+# af  南非语
+# ar  阿拉伯语
+# az  阿塞拜疆语
+# be  比利时语
+# bg  保加利亚语
+# ca  加泰隆语
+# cs  捷克语
+# cy  威尔士语
+# da  丹麦语
+# de  德语
+# dv  第维埃语
+# el  希腊语
+# en  英语
+# eo  世界语
+# es  西班牙语
+# et  爱沙尼亚语
+# eu  巴士克语
+# fa  法斯语
+# fi  芬兰语
+# fo  法罗语
+# fr  法语
+# gl  加里西亚语
+# gu  古吉拉特语
+# he  希伯来语
+# hi  印地语
+# hr  克罗地亚语
+# hu  匈牙利语
+# hy  亚美尼亚语
+# id  印度尼西亚语
+# is  冰岛语
+# it  意大利语
+# ja  日语
+# ka  格鲁吉亚语
+# kk  哈萨克语
+# kn  卡纳拉语
+# ko  朝鲜语
+# kok 孔卡尼语
+# ky  吉尔吉斯语
+# lt  立陶宛语
+# lv  拉脱维亚语
+# mi  毛利语
+# mk  马其顿语
+# mn  蒙古语
+# mr  马拉地语
+# ms  马来语
+# mt  马耳他语
+# nb  挪威语(伯克梅尔)
+# nl  荷兰语
+# ns  北梭托语
+# pa  旁遮普语
+# pl  波兰语
+# pt  葡萄牙语
+# qu  克丘亚语
+# ro  罗马尼亚语
+# ru  俄语
+# sa  梵文
+# se  北萨摩斯语
+# sk  斯洛伐克语
+# sl  斯洛文尼亚语
+# sq  阿尔巴尼亚语
+# sv  瑞典语
+# sw  斯瓦希里语
+# syr 叙利亚语
+# ta  泰米尔语
+# te  泰卢固语
+# th  泰语
+# tl  塔加路语
+# tn  茨瓦纳语
+# tr  土耳其语
+# ts  宗加语
+# tt  鞑靼语
+# uk  乌克兰语
+# ur  乌都语
+# uz  乌兹别克语
+# vi  越南语
+# xh  班图语
+# zh  中文
+# cn  中文
+# zu  祖鲁语
+
+## origin_country/production_countries 国家地区 字典
+# AR  阿根廷
+# AU  澳大利亚
+# BE  比利时
+# BR  巴西
+# CA  加拿大
+# CH  瑞士
+# CL  智利
+# CO  哥伦比亚
+# CZ  捷克
+# DE  德国
+# DK  丹麦
+# EG  埃及
+# ES  西班牙
+# FR  法国
+# GR  希腊
+# HK  香港
+# IL  以色列
+# IN  印度
+# IQ  伊拉克
+# IR  伊朗
+# IT  意大利
+# JP  日本
+# MM  缅甸
+# MO  澳门
+# MX  墨西哥
+# MY  马来西亚
+# NL  荷兰
+# NO  挪威
+# PH  菲律宾
+# PK  巴基斯坦
+# PL  波兰
+# RU  俄罗斯
+# SE  瑞典
+# SG  新加坡
+# TH  泰国
+# TR  土耳其
+# US  美国
+# VN  越南
+# CN  中国 内地
+# GB  英国
+# TW  中国台湾
+# NZ  新西兰
+# SA  沙特阿拉伯
+# LA  老挝
+# KP  朝鲜 北朝鲜
+# KR  韩国 南朝鲜
+# PT  葡萄牙
+# MN  蒙古国 蒙古

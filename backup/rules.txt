@@ -1,0 +1,110 @@
+# Library
+    ## 字幕
+        SPECSUB：特效字幕
+        CNSUB：中文字幕
+    ## 配音
+        CNVOI：中文配音
+        !CNVOI：非中文配音
+        HKVOI：粤语配音
+        !HKVOI：非粤语配音
+    ## 分辨率
+        4K：4K分辨率
+        1080P：1080P分辨率
+        720P：720P分辨率
+        !720P：非720P分辨率
+    ## 质量
+        BLU：蓝光原盘
+        !BLU： 非蓝光原盘
+        BLURAY： BLURAY
+        !BLURAY： 非BLURAY
+        UHD： 超高清
+        !UHD： 非超高清
+        REMUX： REMUX
+        !REMUX： 非REMUX
+        WEBDL： WEBDL
+        !WEBDL： 非WEBDL
+        60FPS： 60FPS
+        !60FPS： 非60FPS
+    ## 编码
+        H265：H265编码
+        !H265：非H265编码
+        H264：H264编码
+        !H264：非H264编码
+    ## 效果
+        DOLBY：杜比视界
+        !DOLBY：非杜比视界
+        ATMOS：杜比全景声
+        !ATMOS：非杜比全景声
+        HDR：HDR
+        !HDR：非HDR
+        SDR：SDR
+        !SDR：非SDR
+        3D：3D
+        !3D：非3D
+    ## 其他
+        GZ：官种
+        FREE：免费
+
+
+# 官方规则左右需要空格，自定义不需要
+# PreFilter Rules
+
+filterGlobal & filerGroup & !3D & live
+=>
+filterGlobal&filerGroup& !3D &live
+
+
+# 电视剧 日漫
+
+4K & SPECSUB & REMUX >
+4K & CNSUB & REMUX >
+1080P & SPECSUB & REMUX >
+1080P & CNSUB & REMUX >
+4K & SPECSUB & WEBDL >
+1080P & SPECSUB & WEBDL >
+4K & CNSUB & WEBDL & CR >
+1080P & CNSUB & WEBDL & CR >
+4K & CNSUB & WEBDL & BG >
+4K & CNSUB & WEBDL >
+4K >
+1080P & CNSUB & WEBDL & BG >
+1080P & CNSUB & WEBDL >
+1080P >
+720P
+
+=>
+
+4K & SPECSUB & REMUX > 4K & CNSUB & REMUX > 1080P & SPECSUB & REMUX > 1080P & CNSUB & REMUX > 4K & SPECSUB & WEBDL > 1080P & SPECSUB & WEBDL > 4K & CNSUB & WEBDL &CR> 1080P & CNSUB & WEBDL &CR> 4K & CNSUB & WEBDL &BG> 4K & CNSUB & WEBDL > 4K > 1080P & CNSUB & WEBDL &BG> 1080P & CNSUB & WEBDL > 1080P > 720P
+
+
+# General Rules
+
+4K & SPECSUB & REMUX & DOLBY & HDR >
+4K & SPECSUB & REMUX & !DOLBY & HDR >
+4K & SPECSUB & REMUX & !DOLBY >
+4K & CNSUB & REMUX & DOLBY & HDR >
+4K & CNSUB & REMUX & !DOLBY & HDR >
+4K & CNSUB & REMUX & !DOLBY >
+1080P & SPECSUB & REMUX & !DOLBY >
+1080P & CNSUB & REMUX & !DOLBY >
+4K & SPECSUB & WEBDL & !DOLBY >
+4K & CNSUB & WEBDL & DOLBY & HDR >
+4K & CNSUB & WEBDL & !DOLBY & HQ & 10bit & fps >
+4K & CNSUB & WEBDL & !DOLBY & HQ & 10bit >
+4K & CNSUB & WEBDL & !DOLBY & HQ & fps >
+4K & CNSUB & WEBDL & !DOLBY & HQ >
+4K & CNSUB & WEBDL & !DOLBY & HDR >
+4K & CNSUB & WEBDL & !DOLBY & 10bit & fps >
+4K & CNSUB & WEBDL & !DOLBY & 10bit >
+4K & CNSUB & WEBDL & !DOLBY & fps >
+4K & CNSUB & WEBDL & !DOLBY >
+4K & !DOLBY >
+1080P & SPECSUB & WEBDL & !DOLBY >
+1080P & CNSUB & WEBDL & !DOLBY & HDR >
+1080P & CNSUB & WEBDL & !DOLBY >
+1080P & !DOLBY >
+720P & !DOLBY
+
+=>
+
+4K & SPECSUB & REMUX & DOLBY & HDR > 4K & SPECSUB & REMUX & !DOLBY & HDR > 4K & SPECSUB & REMUX & !DOLBY > 4K & CNSUB & REMUX & DOLBY & HDR > 4K & CNSUB & REMUX & !DOLBY & HDR > 4K & CNSUB & REMUX & !DOLBY > 1080P & SPECSUB & REMUX & !DOLBY > 1080P & CNSUB & REMUX & !DOLBY > 4K & SPECSUB & WEBDL & !DOLBY > 4K & CNSUB & WEBDL & DOLBY & HDR > 4K & CNSUB & WEBDL & !DOLBY &HQ&10bit&fps> 4K & CNSUB & WEBDL & !DOLBY &HQ&10bit> 4K & CNSUB & WEBDL & !DOLBY &HQ&fps> 4K & CNSUB & WEBDL & !DOLBY &HQ> 4K & CNSUB & WEBDL & !DOLBY & HDR > 4K & CNSUB & WEBDL & !DOLBY &10bit&fps> 4K & CNSUB & WEBDL & !DOLBY &10bit> 4K & CNSUB & WEBDL & !DOLBY &fps> 4K & CNSUB & WEBDL & !DOLBY > 4K & !DOLBY > 1080P & SPECSUB & WEBDL & !DOLBY > 1080P & CNSUB & WEBDL & !DOLBY & HDR > 1080P & CNSUB & WEBDL & !DOLBY > 1080P & !DOLBY > 720P & !DOLBY

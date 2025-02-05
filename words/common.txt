@@ -1,0 +1,56 @@
+#
+## 屏蔽词
+## 被替换词 => 替换词
+## 前定位词 <> 后定位词 >> 集偏移量（EP）
+## 被替换词 => 替换词 && 前定位词 <> 后定位词 >> 集偏移量（EP）
+## 其中替换词支持格式：{[tmdbid/doubanid=xxx;type=movie/tv;s=xxx;e=xxx]} 直接指定TMDBID/豆瓣ID识别，其中s、e为季数和集数（可选）
+
+#
+# 屏蔽词
+#
+
+Ma10p
+Hi10p_1080p
+(BDBOX Ver.)
+x264_flac
+[【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})(Fin|END)
+
+#
+# 被替换词 => 替换词
+#
+
+(\d{1,2})[Vv]\d{1} => \1
+.(第\d{1,2}集). => \1
+^[\W_](.*?(?:组|組|屋|社|動漫|Lab|sub|S(?:UB|ub|tudio)|Raw(?:|s)|Production))[\W_]+(?:[\W_]+\d{1,2}(?:月(?:新|)番|国漫)[\W_]+|)[\[【](.*?)[\]】] => [\1] \2
+OAD(\d*) => S00E\1
+OVA(\d*) => S00E\1
+(\d*)nd Season => S\1
+bluRay => BluRay
+# 分辨率参数
+8k => 4320p
+8K => 4320p
+4320P => 4320p
+4k => 2160p
+4K => 2160p
+2160P => 2160p
+高码 => HQ
+EDR => HQ
+FPS => fps
+Fps => fps
+帧 => fps
+# 视频源
+AppleTV+ => ATVP
+B-Global => BG
+Crunchyroll => CR
+Disney+ => DSNP
+Friday => FriDay
+friDay => FriDay
+Fox => FOX
+HamiVideo => Hami
+Hulu => HULU
+iTunes => iT
+Netflix => NF
+LineTV => LINETV
+Linetv => LINETV
+Tving => TVING
+Paramount+ => PMTP
