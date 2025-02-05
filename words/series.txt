@@ -1,0 +1,25 @@
+#
+## 屏蔽词
+## 被替换词 => 替换词
+## 前定位词 <> 后定位词 >> 集偏移量（EP）
+## 被替换词 => 替换词 && 前定位词 <> 后定位词 >> 集偏移量（EP）
+## 其中替换词支持格式：{[tmdbid/doubanid=xxx;type=movie/tv;s=xxx;e=xxx]} 直接指定TMDBID/豆瓣ID识别，其中s、e为季数和集数（可选）
+#
+# 剧集
+#
+# 异人之下 (2023) (tmdbid-225941)
+# 异人之下之决战.碧游村.I.Am.Nobody.The.showdown.between.Yin.Yang.S02E08.2023.2160p.WEB-DL.H265.HQ.60fps.AAC-HHWEB
+异人之下之决战.碧游村 => {[tmdbid=225941;type=tv;s=2]}
+#
+# 老友记 (1994) (tmdbid-1668)
+# S02E12 Friends S02E12 The One After The Superbowl, part 1 BluRay Remux UHD DoVi HDR 2160p DTS-HDMA5.1-CHD.mkv
+Friends S02E12 The One After The Superbowl, part 1 => Friends S02E12 The One After The Superbowl
+Friends S02E13 The One After The Superbowl, part 2 => Friends S02E13 The One After The Superbowl
+# Friends S06E17 The One With Unagi BluRay Remux UHD DoVi HDR 2160p DTS-HDMA5.1-CHD.mkv
+Friends S06E(1[7-9]|2[0-5]) => Friends S06E\1 && Friends S06E <> The >> EP-1
+# Friends S06E16 The One That Could Have Been Part 2 BluRay Remux UHD DoVi HDR 2160p DTS-HDMA5.1-CHD.mkv
+Friends S06E16 The One That Could Have Been Part 2 => Friends S06E25 The One That Could Have Been Part 2
+# Friends S09E23-E24 The One In Barbados BluRay Remux UHD DoVi HDR 2160p DTS-HDMA5.1-CHD.mkv
+Friends S09E23-E24 The One In Barbados => Friends S09E23 The One In Barbados
+# Friends S10E17E18 The Last One Part 1-2 BluRay Remux UHD DoVi HDR 2160p DTS-HDMA5.1-CHD.mkv
+Friends S10E17E18 The Last One Part 1-2 => Friends S10E17 The Last One

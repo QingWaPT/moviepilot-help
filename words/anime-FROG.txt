@@ -1,0 +1,12 @@
+#
+## 屏蔽词
+## 被替换词 => 替换词
+## 前定位词 <> 后定位词 >> 集偏移量（EP）
+## 被替换词 => 替换词 && 前定位词 <> 后定位词 >> 集偏移量（EP）
+## 其中替换词支持格式：{[tmdbid/doubanid=xxx;type=movie/tv;s=xxx;e=xxx]} 直接指定TMDBID/豆瓣ID识别，其中s、e为季数和集数（可选）
+#
+# 动漫-FROG
+#
+# Re：从零开始的异世界生活 (2016) (tmdbid-65942)
+# S03 Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03E01.2024.1080p.CR.WEB-DL.H.264.AAC-FROGWeb.mkv
+Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03E(?=.+FROGWeb) => Re：从零开始的异世界生活.Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S01E && S01E <> 2024 >> EP+50

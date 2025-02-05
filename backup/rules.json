@@ -1,0 +1,46 @@
+[
+  {
+    "id": "filterGlobal",
+    "name": "全局过滤",
+    "include": "",
+    "exclude": "(?i)日语无字|先行|MiniBD|iPad|UPSCALE|AV1|BDMV|RMVB|CAMRip|DVD|vcd|480p|OPUS"
+  },
+  {
+    "id": "filerGroup",
+    "name": "组过滤",
+    "include": "",
+    "exclude": "(?i)SubsPlease|Up to 21°C|VARYG|TELESYNC|sGnb|DBD|COLLECTiVE|SRVFI"
+  },
+  {
+    "id": "live",
+    "name": "活种",
+    "seeders": "1"
+  },
+  {
+    "id": "HQ",
+    "name": "HQ",
+    "include": "HQ|高码|EDR"
+  },
+  {
+    "id": "fps",
+    "name": "fps",
+    "include": "帧|fps|FPS|Fps"
+  },
+  {
+    "id": "10bit",
+    "name": "10bit",
+    "include": "10bit"
+  },
+  {
+    "id": "CR",
+    "name": "CR源",
+    "include": "CR|Crunchyroll",
+    "exclude": ""
+  },
+  {
+    "id": "BG",
+    "name": "BG源",
+    "include": "BG|B-Global",
+    "exclude": ""
+  }
+]
