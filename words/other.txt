@@ -2,9 +2,6 @@
 # 自定义制作组/字幕组
 #
 
-lloup
-Tabisuru Shima Rin
-[ANi]
 (?<=264\-)\w+(?=\.mkv);(?<=265\-)\w+(?=\.mkv)
 (?<=264\-)\w+(?=\.mp4);(?<=265\-)\w+(?=\.mp4)
 VCB-Studio
@@ -13,16 +10,38 @@ VCB-Studio
 [7³ACG]
 7³ACG@OurBits
 [7³ACG@OurBits]
-REE
-FraMeSToR
-MagicStar
-cfandora
 FROGWeb
 FROGE
+FROG
 MWeb
+MTeam
 RLWeb
 ZmWeb
 CatEDU
+Tnp
+TPTV
+BMDru
+CNHK
+Pack
+ARiC
+Telesto
+JKCT
+G00DB0Y
+D0
+iFree
+HZH
+YzYY
+HBO
+REE
+Bulgur
+CTRL
+FatTiger
+TensoRaws
+ZTR
+126811
+FraMeSToR
+MagicStar
+cfandora
 
 #
 # 自定义占位符
@@ -32,7 +51,7 @@ CatEDU
 (?<=1080p\.).*(?=\.WEBRip);(?<=2160p\.).*(?=\.WEBRip)
 # 源
 \b(Baha|BG|CR)\b
-\b(MyVideo|LINETV|KKTV|FriDay|LiTV|GagaOOLala|NowPlay)\b
+\b(MyVideo|LINETV|KKTV|FriDay|LiTV|GagaOOLala|NowPlay|Viu)\b
 \b(AMZN|ATVP|DSNP|iP|FOX|Hami|HBO|HMAX|HULU|iT|NF|PMTP|MAX|TVING|YT)\b
 \b(IQY|IQ|TX|WeTV|YK|Migu|Mgtv|Bilibili|Sohu|Xigua)\b
 # 视频参数
