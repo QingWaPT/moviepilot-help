@@ -43,6 +43,12 @@ Ghosts.S05E07 => 古宅老友记.Ghosts.S00E04
 # 日韩剧
 #
 
+# 龙樱 (2005) (tmdbid-31816)
+# Dragon.Zakura.2005.EP01.1080p.BluRay.x265.10bit.FLAC.MNHD-FRDS
+Dragon.Zakura.2005.EP(0[1-9]|1[0-1]) => 龙樱.Dragon.Zakura.2005.S01E\1
+# Dragon.Zakura.2021.EP01.1080p.BluRay.x265.10bit.FLAC.MNHD-FRDS
+Dragon.Zakura.2021.EP(0[1-9]|10) => 龙樱.Dragon.Zakura.2005.S02E\1
+
 #
 # 纪录片
 #
