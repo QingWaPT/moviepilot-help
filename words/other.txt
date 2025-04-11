@@ -2,22 +2,22 @@
 # 自定义制作组/字幕组
 #
 
-(?<=264\-)\w+(?=\.mkv);(?<=265\-)\w+(?=\.mkv)
-(?<=264\-)\w+(?=\.mp4);(?<=265\-)\w+(?=\.mp4)
+(?<=26[45]\-)\w+(?=\.[mp4|mkv])
 VCB-Studio
-[VCB-Studio]
 7³ACG
-[7³ACG]
-7³ACG@OurBits
-[7³ACG@OurBits]
+7³ACG\@OurBits
 FROGWeb
+随风\@FROGWeb
 FROGE
 FROG
 MWeb
-MTeam
+CatEDU
 RLWeb
 ZmWeb
-CatEDU
+PigGoWEB
+Sunny
+Ubits
+playWeb
 Tnp
 TPTV
 BMDru
@@ -42,6 +42,9 @@ ZTR
 FraMeSToR
 MagicStar
 cfandora
+Wrandz
+AREY
+Whax
 
 #
 # 自定义占位符
