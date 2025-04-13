@@ -26,10 +26,10 @@
 https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/common.txt
 https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/movie-FROG.txt
 https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/movie.txt
-https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/anime-FROG.txt
-https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/anime.txt
 https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/series-FROG.txt
 https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/series.txt
+https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/anime-FROG.txt
+https://raw.githubusercontent.com/QingWaPT/moviepilot-help/main/words/anime.txt
 ```
 
 ### 自定义识别词规则参考
