@@ -1,0 +1,76 @@
+#
+# 自定义制作组/字幕组
+#
+
+(?<=26[45]\-)\w+(?=\.[mp4|mkv])
+VCB-Studio
+7³ACG
+7³ACG\@OurBits
+FROGWeb
+随风\@FROGWeb
+FROGE
+FROG
+MWeb
+CatEDU
+RLWeb
+ZmWeb
+PigGoWEB
+Sunny
+Ubits
+playWeb
+Tnp
+TPTV
+BMDru
+CNHK
+Pack
+ARiC
+Telesto
+JKCT
+G00DB0Y
+D0
+iFree
+HZH
+YzYY
+HBO
+REE
+Bulgur
+CTRL
+FatTiger
+TensoRaws
+ZTR
+126811
+FraMeSToR
+MagicStar
+cfandora
+Wrandz
+AREY
+Whax
+
+#
+# 自定义占位符
+#
+
+(?<=1080p\.).*(?=\.WEB-DL);(?<=2160p\.).*(?=\.WEB-DL)
+(?<=1080p\.).*(?=\.WEBRip);(?<=2160p\.).*(?=\.WEBRip)
+# 源
+\b(Baha|BG|CR)\b
+\b(MyVideo|LINETV|KKTV|FriDay|LiTV|GagaOOLala|NowPlay|Viu)\b
+\b(AMZN|ATVP|DSNP|iP|FOX|Hami|HBO|HMAX|HULU|iT|NF|PMTP|MAX|TVING|YT)\b
+\b(IQY|IQ|TX|WeTV|YK|Migu|Mgtv|Bilibili|Sohu|Xigua)\b
+# 视频参数
+\b(HQ|120fps|60fps|30fps|50fps)\b
+
+#
+# 文件整理屏蔽词
+#
+
+__\w{6}/
+\[((TV|BD|\bBlu-ray\b)?\s*CM\s*\d{2,3})\]
+\[Teaser.*?\]
+\[PV.*?\]
+# \[\d{2}.\d\]
+\[NC[OPED]+.*?\]
+\[S\d+\s+Recap(\s+\d+)?\]
+# \b(CDs|SPs|Scans|Preview|Menu|Bonus|映像特典|映像|Special Ending Movie|specials|特典CD|Logo|Preview|WiKi.sample|UHD.SAMPLE|/mv)\b
+\b(CDs|SPs|Scans|Preview|Menu|Bonus|映像特典|映像|Special Ending Movie|特典CD|Logo|Preview|WiKi.sample|UHD.SAMPLE|/mv)\b
+\b(NC)?(Disc|片头|OP|OVA|OAD|SP|ED|Advice|Trailer|BDMenu|片尾|PV|CM|Preview|MENU|Info|EDPV|SongSpot|BDSpot)(\d{0,2}|_ALL)\b
