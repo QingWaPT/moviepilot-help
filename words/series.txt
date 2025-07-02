@@ -11,15 +11,11 @@ Puzzle Baby.2019 => 益智宝贝.2019.Puzzle.Baby
 # 华语剧
 #
 
-# 异人之下 (2023) (tmdbid-225941)
-# 异人之下之决战.碧游村.I.Am.Nobody.The.showdown.between.Yin.Yang.S02E08.2023.2160p.WEB-DL.H265.HQ.60fps.AAC-HHWEB
-异人之下之决战.碧游村 => {[tmdbid=225941;type=tv;s=2]}
-
 #
 # 英美剧
 #
 
-# 老友记 (1994) (tmdbid-1668)
+# 老友记 (1994) {tmdbid=1668} // https://www.themoviedb.org/tv/1668
 # S02E12 Friends S02E12 The One After The Superbowl, part 1 BluRay Remux UHD DoVi HDR 2160p DTS-HDMA5.1-CHD.mkv
 Friends S02E12 The One After The Superbowl, part 1 => Friends S02E12 The One After The Superbowl
 Friends S02E13 The One After The Superbowl, part 2 => Friends S02E13 The One After The Superbowl
@@ -32,7 +28,7 @@ Friends S09E23-E24 The One In Barbados => Friends S09E23 The One In Barbados
 # Friends S10E17E18 The Last One Part 1-2 BluRay Remux UHD DoVi HDR 2160p DTS-HDMA5.1-CHD.mkv
 Friends S10E17E18 The Last One Part 1-2 => Friends S10E17 The Last One
 #
-# 古宅老友记 (2019) (tmdbid-17174)
+# 古宅老友记 (2019) {tmdbid=17174} // https://www.themoviedb.org/tv/17174
 # Ghosts.S02.1080p.MyVideo.WEB-DL.AAC2.0.H.264-CHDWEB/Ghosts.S02E01.1080p.MyVideo.WEB-DL.AAC2.0.H.264-CHDWEB.mkv
 Ghosts.S02E07 => 古宅老友记.Ghosts.S00E01
 Ghosts.S03E07 => 古宅老友记.Ghosts.S00E02
@@ -43,15 +39,23 @@ Ghosts.S05E07 => 古宅老友记.Ghosts.S00E04
 # 日韩剧
 #
 
-# 龙樱 (2005) (tmdbid-31816)
+# 龙樱 (2005) {tmdbid=31816} // https://www.themoviedb.org/tv/31816
 # Dragon.Zakura.2005.EP01.1080p.BluRay.x265.10bit.FLAC.MNHD-FRDS
 Dragon.Zakura.2005.EP(0[1-9]|1[0-1]) => 龙樱.Dragon.Zakura.2005.S01E\1
 # Dragon.Zakura.2021.EP01.1080p.BluRay.x265.10bit.FLAC.MNHD-FRDS
 Dragon.Zakura.2021.EP(0[1-9]|10) => 龙樱.Dragon.Zakura.2005.S02E\1
+#
+# 半泽直树 (2013) {tmdbid=55925} // https://www.themoviedb.org/tv/55925
+# Hanzawa.Naoki.S02E00.1080p.BluRay.x265.10bit.FLAC.MNHD-FRDS
+Hanzawa.Naoki.S02E00 => 半泽直树.Hanzawa.Naoki.S00E01
 
 #
 # 纪录片
 #
+
+# 辛普森：美国制造 (2016) {tmdbid=66738} // https://www.themoviedb.org/tv/66738
+# O.J.Made.In.America.Part1.2016.1080p.Blu-ray.x265.10bit.AC3￡cXcY@FRDS
+O.J.Made.In.America.Part([1-5]) => O.J.Made.In.America.S01E0\1
 
 #
 # 综艺
@@ -62,6 +66,3 @@ Dragon.Zakura.2021.EP(0[1-9]|10) => 龙樱.Dragon.Zakura.2005.S02E\1
 Amazing.Night.S01E(0[1-9]|1[0-2]).2024.Part1 => Amazing.Night.2024.S01E\1 && S01E <> 2160p >> EP*2-1
 Amazing.Night.S01E(0[1-9]|1[0-2]).2024.Part2 => Amazing.Night.2024.S01E\1 && S01E <> 2160p >> EP*2
 #
-# 中央广播电视总台春节联欢晚会 (1983) (tmdbid-119007)
-# The.2025.CMG.Spring.Festival.Gala.2025.2160p.YT.WEB-DL.VP9.AAC-CHDWEB.mkv
-(.*)CMG(.*)Spring.Festival.Gala(\d*) => 中央广播电视总台春节联欢晚会.S43E01

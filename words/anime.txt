@@ -3,13 +3,11 @@
 # 日漫
 #
 
-# 名侦探柯南 (1996) (tmdbid-30983)
-# Meitantei.Conan.1996.E1096.2160p.WEB-DL.H265.AAC.2Audio-HaresWEB
-Meitantei.Conan.1996 <> 2160p >> EP-57
+# 名侦探柯南 (1996) {tmdbid=30983} // https://www.themoviedb.org/tv/30983
 # Detective.Conan.S01E1149.1996.1080p.WEB-DL.H264.AAC-ADWeb
 Detective.Conan.S01 <> 1996 >> EP-58
 #
-# 海贼王 (1999) (tmdbid-37854)
+# 航海王 (1999) {tmdbid=37854} // https://www.themoviedb.org/tv/37854
 # S00E33 ONE.PIECE.FAN.LETTER.S01E01.2024.1080p.Viu.WEB-DL.H264.AAC-ADWeb
 ONE.PIECE.FAN.LETTER.S01E01 => 海贼王.One.Piece.1999.S00E33
 # S02 E62-77 伟大航路突入篇
@@ -56,12 +54,12 @@ One.Piece.S01E(?=(089[2-9]|09[0-9][0-9]|10[0-7][0-9]|108[0-8])) => 海贼王.One
 One.Piece.S01E(?=(1089|109[0-9]|11[0-9][0-9])) => 海贼王.One.Piece.1999.S22E
 #
 # 数码宝贝
-# 数码宝贝：合体战争 (2010) (tmdbid-37851)
+# 数码宝贝：合体战争 (2010) {tmdbid=37851} // https://www.themoviedb.org/tv/37851
 # Digimon.Xros.Wars.S01E55.2010.720p.WEB-DL.H264.AAC-ADWeb
 Digimon.Xros.Wars.S01E(?=(5[5-9]|[6-7][0-9])) => Digimon.Xros.Wars.S02E && S02E <> 2010 >> EP-54
 #
 # 网球王子
-# 网球王子 (2001) (tmdbid-27845)
+# 网球王子 (2001) {tmdbid=27845} // https://www.themoviedb.org/tv/27845
 # 网球王子.The.Prince.of.Tennis.2001.S01E001.1080p.CR.WEB-DL.H264.AAC-PTerWEB
 The.Prince.of.Tennis.2001.S01E(?=(02[7-9]|0[3-4][0-9]|05[0-3])) => The.Prince.of.Tennis.2001.S02E && S02E <> 1080p >> EP-26
 The.Prince.of.Tennis.2001.S01E(?=(05[4-9]|06[0-9]|07[0-5])) => The.Prince.of.Tennis.2001.S03E && S03E <> 1080p >> EP-53
@@ -70,100 +68,89 @@ The.Prince.of.Tennis.2001.S01E(?=(10[2-9]|11[0-9]|12[0-8])) => The.Prince.of.Ten
 The.Prince.of.Tennis.2001.S01E(?=(129|1[3-5][0-9]|16[0-5])) => The.Prince.of.Tennis.2001.S06E && S06E <> 1080p >> EP-128
 The.Prince.of.Tennis.2001.S01E(?=(16[6-9]|17[0-8])) => The.Prince.of.Tennis.2001.S07E && S07E <> 1080p >> EP-165
 #
-# 机动战士高达
-# 机动战士高达00 (2007) (tmdbid-21732)
-# [机动战士高达00].Mobile.Suit.Gundam.00.2007.S01.Ep01.Complete.Hami.WEB-DL.1080p.H264.AAC-CMCTV
-机动战士高达00].Mobile.Suit.Gundam.00.2007.S01.Ep(\d*) => 机动战士高达00.2007.S01E\1
-# [机动战士高达00 第二季].Mobile.Suit.Gundam.00.2nd.season.2008.S02.Ep01.Hami.WEB-DL.1080p.H264.AAC-CMCTV
-机动战士高达00 第二季].Mobile.Suit.Gundam.00.2nd.season.2008.S02.Ep(\d*) => 机动战士高达00.2007.S02E\1
-#
-# 机动战士高达 鉄血的奥尔芬斯 (2015) (tmdbid-64375)
+# 机动战士高达 鉄血的奥尔芬斯 (2015) {tmdbid=64375} // https://www.themoviedb.org/tv/64375
 # Kidou.Senshi.Gundam.Tekketsu.no.Orphans.S01E01.Iron.and.Blood.1080p.NF.WEB-DL.DDP2.0.H.264-playWEB
-Kidou.Senshi.Gundam.Tekketsu.no.Orphans.S01E(\d*) => Kidou.Senshi.Gundam.Tekketsu.no.Orphans.2015.S01E\1
-Kidou.Senshi.Gundam.Tekketsu.no.Orphans.S02E(\d*) => Kidou.Senshi.Gundam.Tekketsu.no.Orphans.2015.S01E\1 && S01E <> 1080p >> EP+25
+Kidou.Senshi.Gundam.Tekketsu.no.Orphans.S01E(\d*) => {[tmdbid=64375;type=tv]}.S01E\1
+Kidou.Senshi.Gundam.Tekketsu.no.Orphans.S02E(\d*) => {[tmdbid=64375;type=tv]}.S01E\1 && S01E <> 1080p >> EP+25
 #
-# 机动战士高达UC (2010) (tmdbid-45500)
+# 机动战士高达UC (2010) {tmdbid=45500} // https://www.themoviedb.org/tv/45500
 # Mobile.Suit.Gundam.Unicorn.S01E01.Day.of.the.Unicorn.2019.BluRay.1080p.10bit.TrueHD.5.1.x265-beAst
-Mobile.Suit.Gundam.Unicorn.S01E(\d*) => 机动战士高达UC.Mobile.Suit.Gundam.Unicorn.2010.S01E\1
+Mobile.Suit.Gundam.Unicorn.S01E(\d*) => {[tmdbid=45500;type=tv]}.S01E\1
 #
-# 机动战士高达UC RE：0096 (2016) (tmdbid-67524)
+# 机动战士高达UC RE：0096 (2016) {tmdbid=67524} // https://www.themoviedb.org/tv/67524
 # Mobile.Suit.Gundam.Unicorn.RE0096.S01E01.2016.BluRay.1080p.LPCM2.0.x265.10bit-CHD
-Mobile.Suit.Gundam.Unicorn.RE0096.S01E(\d*) => {[tmdbid=67524;type:tv]}.S01E\1
+Mobile.Suit.Gundam.Unicorn.RE0096.S01E(\d*) => {[tmdbid=67524;type=tv]}.S01E\1
 #
-# 团子大家族 (2007) (tmdbid-24835)
-# 团子大家族.Clannad.S01E00.2007.2160p.WEB-DL.H264.AAC-ADWeb.mp4
+# 团子大家族 (2007) {tmdbid=24835} // https://www.themoviedb.org/tv/24835
+# 团子大家族.Clannad.S01E00.2007.2160p.WEB-DL.H264.AAC-ADWeb
 团子大家族.Clannad.S01E00 => 团子大家族.Clannad.S00E01
 # 团子大家族2.Clannad.S02E00.2008.1080p.WEB-DL.H264.AAC-ADWeb
 团子大家族2.Clannad.S02E00 => 团子大家族2.Clannad.S00E03
 #
-# 未闻花名 (2011) (tmdbid-39434)
+# 未闻花名 (2011) {tmdbid=39434} // https://www.themoviedb.org/tv/39434
 # AnoHana S01E01-[1080p][JP.BD.Remux][lolice-mix]
-AnoHana S(\d*)E(\d*)- => 未闻花名.Anohana.2011.remux.S\1E\2
+AnoHana S(\d*)E(\d*)- => 未闻花名.Anohana.2011.S\1E\2
 #
-# 进击的巨人 (2013) (tmdbid-1429)
+# 进击的巨人 (2013) {tmdbid=1429} // https://www.themoviedb.org/tv/1429
 # S01 Shingeki no Kyojin S01E01-[1080p][JP.BD.Remux][788-mix]
 # S02 Shingeki no Kyojin S02E01-[1080p][JP.BD.Remux][788-mix]
 # S03 Shingeki no Kyojin S03E01-[1080p][JP.BD.Remux][788-mix]
 # S04P1 Shingeki no Kyojin S04E01-[1080p][JP.BD.Remux][lolice-mix]
 # S04P2 Shingeki no Kyojin S04E17-[1080p][JP.BD.Remux][lolice-mix]
-Shingeki no Kyojin S(\d*)E(\d*)- => 进击的巨人.Attack.on.Titan.2013.remux.S\1E\2
-进击的巨人.Attack.on.Titan.2013.remux.S00E(0[1-5]) => 进击的巨人.Attack.on.Titan.2013.S00E\1 && S00E <> - >> EP+1
-进击的巨人.Attack.on.Titan.2013.remux.S00E(0[6-8]) => 进击的巨人.Attack.on.Titan.2013.S00E\1 && S00E <> - >> EP+2
-进击的巨人.Attack.on.Titan.2013.remux.S00E09 => 进击的巨人.Attack.on.Titan.2013.S00E12
-进击的巨人.Attack.on.Titan.2013.remux.S00E10 => 进击的巨人.Attack.on.Titan.2013.S00E07
-进击的巨人.Attack.on.Titan.2013.remux.S00E(1[1-7]) => 进击的巨人.Attack.on.Titan.2013.S00E\1 && S00E <> - >> EP+2
+Shingeki no Kyojin S(\d*)E(\d*)- => 进击的巨人.Attack.on.Titan.2013.S\1E\2
+进击的巨人.Attack.on.Titan.2013.S00E(0[1-5]) => 进击的巨人.Attack.on.Titan.2013.S00E\1 && S00E <> - >> EP+1
+进击的巨人.Attack.on.Titan.2013.S00E(0[6-8]) => 进击的巨人.Attack.on.Titan.2013.S00E\1 && S00E <> - >> EP+2
+进击的巨人.Attack.on.Titan.2013.S00E09 => 进击的巨人.Attack.on.Titan.2013.S00E12
+进击的巨人.Attack.on.Titan.2013.S00E10 => 进击的巨人.Attack.on.Titan.2013.S00E07
+进击的巨人.Attack.on.Titan.2013.S00E(1[1-7]) => 进击的巨人.Attack.on.Titan.2013.S00E\1 && S00E <> - >> EP+2
 #
-# 可塑性记忆 (2015) (tmdbid-62450)
+# 可塑性记忆 (2015) {tmdbid=62450} // https://www.themoviedb.org/tv/62450
 # Plastic Memories S01E01 (BDRemux 1920x1080 AVC FLAC)
-Plastic Memories S(\d*)E(\d*) => 可塑性记忆.Plastic.Memories.2015.remux.S\1E\2
+Plastic Memories S(\d*)E(\d*) => 可塑性记忆.Plastic.Memories.2015.S\1E\2
 #
-# 月色真美 (2017) (tmdbid-70880)
+# 月色真美 (2017) {tmdbid=70880} // https://www.themoviedb.org/tv/70880
 # Tsuki ga Kirei S01E01-[1080p][JP.BD.Remux][lolice-EC]
-Tsuki ga Kirei S(\d*)E(\d*)- => 月色真美.Tsuki.ga.Kirei.2017.remux.S\1E\2
+Tsuki ga Kirei S(\d*)E(\d*)- => 月色真美.Tsuki.ga.Kirei.2017.S\1E\2
 #
-# 鬼灭之刃 (2019) (tmdbid-85937)
+# 鬼灭之刃 (2019) {tmdbid=85937} // https://www.themoviedb.org/tv/85937
 # S01 Kimetsu no Yaiba S01E01-[1080p][BDRemux][cht+chs][788-Remux]
 # S03 Kimetsu no Yaiba S03E01-[1080p][JP.BD.Remux][lolice-mix]
-Kimetsu no Yaiba S(\d*)E(\d*)- => 鬼灭之刃.Kimetsu.no.Yaiba.2019.remux.S\1E\2
+Kimetsu no Yaiba S(\d*)E(\d*)- => 鬼灭之刃.Kimetsu.no.Yaiba.2019.S\1E\2
 # S02 Demon Slayer Kimetsu no Yaiba S02E01-[2021][1080p][USA.BD.Remux]
-Demon Slayer Kimetsu no Yaiba S(\d*)E(\d*)- => 鬼灭之刃.Kimetsu.no.Yaiba.2019.remux.S\1E\2
+Demon Slayer Kimetsu no Yaiba S(\d*)E(\d*)- => 鬼灭之刃.Kimetsu.no.Yaiba.2019.S\1E\2
 # S04 Kimetsu no Yaiba Katanakaji no Sato Hen S04E01-[1080p][JP.BD.Remux]
-Kimetsu no Yaiba Katanakaji no Sato Hen S(\d*)E(\d*)- => 鬼灭之刃.Kimetsu.no.Yaiba.2019.remux.S\1E\2
+Kimetsu no Yaiba Katanakaji no Sato Hen S(\d*)E(\d*)- => 鬼灭之刃.Kimetsu.no.Yaiba.2019.S\1E\2
 # S05 To Defeat Muzan Kibutsuji S01E01-[1080p][JP.BD.Remux]
-To Defeat Muzan Kibutsuji S01E(\d*)- => 鬼灭之刃.Kimetsu.no.Yaiba.2019.remux.S05E\1
+To Defeat Muzan Kibutsuji S01E(\d*)- => 鬼灭之刃.Kimetsu.no.Yaiba.2019.S05E\1
 #
-# 异度侵入 (2020) (tmdbid-92602)
+# 异度侵入 (2020) {tmdbid=92602} // https://www.themoviedb.org/tv/92602
 # ID INVADED S01E01 (BDRemux 1920x1080 AVC FLAC)
-ID INVADED S(\d*)E(\d*) => 异度侵入.ID.INVADED.2020.remux.S\1E\2
+ID INVADED S(\d*)E(\d*) => 异度侵入.ID.INVADED.2020.S\1E\2
 #
-# 奇巧计程车 (2021) (tmdbid-116727)
+# 奇巧计程车 (2021) {tmdbid=116727} // https://www.themoviedb.org/tv/116727
 # ODD TAXI S01E01-[1080p][JP.BD.Remux][lolice-mix]
-ODD TAXI S(\d*)E(\d*)- => 奇巧计程车.ODD.TAXI.2021.remux.S\1E\2
+ODD TAXI S(\d*)E(\d*)- => 奇巧计程车.ODD.TAXI.2021.S\1E\2
 #
-# 无职转生 (2021) (tmdbid-94664)
+# 无职转生 (2021) {tmdbid=94664} // https://www.themoviedb.org/tv/94664
 # S01 Mushoku Tensei S01E01-[1080p][JP.BD.Remux][lolice-mix]
-Mushoku Tensei S01E(\d*)- => 无职转生.Mushoku.Tensei.2021.remux.S01E\1
-无职转生.Mushoku.Tensei.2021.remux.S01E24 => 无职转生.Mushoku.Tensei.2021.remux.S00E01
+Mushoku Tensei S01E(\d*)- => 无职转生.Mushoku.Tensei.2021.S01E\1
+无职转生.Mushoku.Tensei.2021.S01E24 => 无职转生.Mushoku.Tensei.2021.S00E01
 # S02 Mushoku Tensei Isekai Ittara Honki Dasu S02E01-[1080p][JP.BD.Remux]
-Mushoku Tensei Isekai Ittara Honki Dasu S(\d*)E(\d*)- => 无职转生.Mushoku.Tensei.2021.remux.S\1E\2
+Mushoku Tensei Isekai Ittara Honki Dasu S(\d*)E(\d*)- => 无职转生.Mushoku.Tensei.2021.S\1E\2
 #
-# 漂流少年 (2021) (tmdbid-124396)
+# 漂流少年 (2021) {tmdbid=124396} // https://www.themoviedb.org/tv/124396
 # [XKsub&SweetSub&VCB-Studio] Sonny Boy [01][Ma10p_1080p][x265_flac]
 Sonny Boy => 漂流少年.Sonny.Boy.2021.S01.BluRay
 #
-# 呆萌酷男孩 (2022) (tmdbid-198170)
+# 呆萌酷男孩 (2022) {tmdbid=198170} // https://www.themoviedb.org/tv/198170
 # Cool Doji Danshi S01E01-[1080p][JP.BD.Remux]
-Cool Doji Danshi S(\d*)E(\d*)- => 呆萌酷男孩.Cool.Doji.Danshi.2022.remux.S\1E\2
-#
-# 败犬女主太多了！ (2024) (tmdbid-241535)
-# Make Heroine ga Oosugiru S01E12-[1080p][JP.BD.Remux]
-Make Heroine ga Oosugiru S(\d*)E(\d*)- => 败犬女主太多了！.Make.Heroine.ga.Oosugiru.2024.remux.S\1E\2
+Cool Doji Danshi S(\d*)E(\d*)- => 呆萌酷男孩.Cool.Doji.Danshi.2022.S\1E\2
 
 #
 # 国漫
 #
 
-# 斗破苍穹 (2017) (tmdbid-79481)
+# 斗破苍穹 (2017) {tmdbid=79481} // https://www.themoviedb.org/tv/79481
 # 斗破苍穹年番.Fights.Break.Sphere.S05E120.2022.2160p.WEB-DL.H265.DDP2.0-ADWeb
 斗破苍穹年番 => 斗破苍穹
 

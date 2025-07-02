@@ -3,10 +3,15 @@
 # 动漫-FROG
 #
 
-# Re：从零开始的异世界生活 (2016) (tmdbid-65942)
+# Re：从零开始的异世界生活 (2016) {tmdbid=65942}
 # S03 Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03E01.2024.1080p.CR.WEB-DL.H.264.AAC-FROGWeb.mkv
 Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03E(?=.+FROGWeb) => Re：从零开始的异世界生活.Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S01E && S01E <> 2024 >> EP+50
 #
-# 虽然是公会的柜台小姐，但因为不想加班所以打算独自讨伐迷宫头目 (2025) (tmdbid-249964)
+# 虽然是公会的柜台小姐，但因为不想加班所以打算独自讨伐迷宫头目 (2025) {tmdbid=249964}
 # Girudo.no.Uketsukejô.desu.ga.Zangyô.wa.Iya.nanode.Bosu.wo.Soro.Tôbatsu.Shiyô.to.Omoimasu.S01E01.2025.1080p.CR.WEB-DL.H.264.AAC-FROGWeb.mkv
 Girudo.no.Uketsukejô.desu.ga.Zangyô.wa.Iya.nanode.Bosu.wo.Soro.Tôbatsu.Shiyô.to.Omoimasu(?=.+FROGWeb) => 虽然是公会的柜台小姐，但因为不想加班所以打算独自讨伐迷宫头目
+#
+# 机动战士高达
+# 机动战士高达00 (2007) {tmdbid=21732} // https://www.themoviedb.org/tv/21732
+# Mobile.Suit.Gundam.00.S01E01.2007.1080p.BluRay.x265.FLAC.2.0-FROGE
+Mobile.Suit.Gundam.00 => {[tmdbid=21732;type=tv]}
