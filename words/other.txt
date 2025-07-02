@@ -73,4 +73,5 @@ __\w{6}/
 \[S\d+\s+Recap(\s+\d+)?\]
 # \b(CDs|SPs|Scans|Preview|Menu|Bonus|映像特典|映像|Special Ending Movie|specials|特典CD|Logo|Preview|WiKi.sample|UHD.SAMPLE|/mv)\b
 \b(CDs|SPs|Scans|Preview|Menu|Bonus|映像特典|映像|Special Ending Movie|特典CD|Logo|Preview|WiKi.sample|UHD.SAMPLE|/mv)\b
-\b(NC)?(Disc|片头|OP|OVA|OAD|SP|ED|Advice|Trailer|BDMenu|片尾|PV|CM|Preview|MENU|Info|EDPV|SongSpot|BDSpot)(\d{0,2}|_ALL)\b
+# \b(NC)?(Disc|片头|OP|OVA|OAD|SP|ED|Advice|Trailer|BDMenu|片尾|PV|CM|Preview|MENU|Info|EDPV|SongSpot|BDSpot)(\d{0,2}|_ALL)\b
+\b(NC)?(Disc|片头|OP|OVA|SP|ED|Advice|Trailer|BDMenu|片尾|PV|CM|Preview|MENU|Info|EDPV|SongSpot|BDSpot)(\d{0,2}|_ALL)\b

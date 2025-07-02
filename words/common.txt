@@ -26,6 +26,7 @@ OAD(\d*) => S00E\1
 OVA(\d*) => S00E\1
 (\d*)nd Season => S\1
 bluRay => BluRay
+\.2\.0 => \n
 # 分辨率参数
 8k => 4320p
 8K => 4320p
