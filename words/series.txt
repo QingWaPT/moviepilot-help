@@ -58,4 +58,6 @@ O.J.Made.In.America.Part([1-5]) => O.J.Made.In.America.S01E0\1
 ###-----------------------------------###
 
 # 中央广播电视总台春节联欢晚会 (1983) {tmdbid=119007} // https://www.themoviedb.org/tv/119007
-(.*)CMG(.*)Spring.Festival.Gala(\d*) => 中央广播电视总台春节联欢晚会.S43E01
+(.*)CMG(.*)Spring.Festival.Gala.2024 => {[tmdbid=119007;type=tv;s=42;e=1]}
+(.*)CMG(.*)Spring.Festival.Gala.2025 => {[tmdbid=119007;type=tv;s=43;e=1]}
+(.*)CMG(.*)Spring.Festival.Gala.2026 => {[tmdbid=119007;type=tv;s=44;e=1]}
